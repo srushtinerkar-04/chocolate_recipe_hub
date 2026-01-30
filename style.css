@@ -522,3 +522,42 @@ body {
   font-size: 13px;
   color: #777;
 }
+
+/* Mobile fixes */
+@media (max-width: 768px) {
+
+  .about-grid,
+  .special-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .logo-img {
+    max-width: 90%;
+    height: auto;
+  }
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
