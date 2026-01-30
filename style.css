@@ -561,3 +561,65 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* ========== MOBILE FIXES ========== */
+@media (max-width: 768px) {
+
+  /* Logo */
+  .logo-img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Top text */
+  .top h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .top span,
+  .top p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  /* About section */
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Cards spacing */
+  .recipe-card,
+  .type-card,
+  .special-card {
+    margin-bottom: 20px;
+  }
+
+  /* Footer */
+  .footer-section {
+    text-align: center;
+  }
+
+  .footer-links {
+    padding-left: 0;
+  }
+}
